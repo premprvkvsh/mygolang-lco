@@ -14,4 +14,9 @@ func main() {
 	var anothervariable int
 	fmt.Println(anothervariable)
 	fmt.Printf("variables is of type: %T \n", anothervariable)
+
+	numberOfUser := 300000.0
+	fmt.Println(numberOfUser)
+
+	//:= short variable declaration operator in go
 }
