@@ -10,4 +10,8 @@ func main() {
 	var smallVal bool = true
 	fmt.Println(smallVal)
 	fmt.Printf("variables is of type: %T \n", smallVal)
+
+	var anothervariable int
+	fmt.Println(anothervariable)
+	fmt.Printf("variables is of type: %T \n", anothervariable)
 }
