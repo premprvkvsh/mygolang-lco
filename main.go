@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const LoginToken string = "gfjhkghghkjsd"
+
 func main() {
 	var username string = "hitesh"
 	fmt.Println(username)
@@ -18,5 +20,7 @@ func main() {
 	numberOfUser := 300000.0
 	fmt.Println(numberOfUser)
 
+	fmt.Println(LoginToken)
+	fmt.Printf("variables is of type: %T \n", LoginToken)
 	//:= short variable declaration operator in go
 }
